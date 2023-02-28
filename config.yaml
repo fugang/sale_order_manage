@@ -1,0 +1,86 @@
+---
+  sale_contract:
+    id: ID
+    saler: 销售员
+    date: 签订日期
+    company: 公司名称
+    contract_no: 合同编号
+    amount: 合同金额
+    tax_rate: 税率
+    emi_cost: EMI
+    ems_cost: EMS
+    vol_trans_cost: 隔离变压器
+    shield_cost: 屏蔽房
+    env_desk_cost: 环境和桌子
+    computer_cost: 电脑
+    other_cost: 其他
+    discount: 回扣
+    assistant: 跟单员
+    income: 已收金额
+    outstanding: 欠款金额
+    main_cost: 成本
+    commission: 提成
+    revenue: 盈利
+    profit: 利润
+    marks: 备注
+
+  purchase_contract:
+    id: ID
+    supply: 公司名称
+    purchase_no: 采购合同
+    sale_no: 销售合同
+    item: 采购物品
+    product_type: 型号
+    count: 采购数量
+    date: 采购日期
+    amount: 采购金额
+    mark: 备注
+    paid: 已付款
+    unpaid: 欠款
+
+  customer_view:
+    id: ID
+    company: 公司名称
+    industry: 行业
+    direction: 地区
+    address: 地址
+    linkman: 联系人
+    phone: 联系方式
+
+  supply_view:
+    id: ID
+    company: 公司名称
+    items: 物品名称
+    address: 地址
+    linkman: 联系人
+    phone: 联系方式
+
+  item_view:
+    id: ID
+    name: 物品名称
+    specification: 规格
+
+  saler_view:
+    id: ID
+    name: 销售员
+    phone: 联系方式
+
+  account_view:
+    id: ID
+    mold_value: 类型
+    amount: 金额
+    date: 日期
+    company: 公司名称
+    item: 采购物品
+
+  cash_in_view:
+    id: ID
+    amount: 金额
+    date: 日期
+
+  cash_out_view:
+    id: ID
+    supply: 供应商
+    item: 采购设备
+    amount: 金额
+    date: 日期
